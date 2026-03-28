@@ -3,8 +3,8 @@
 <details>
   <summary>🚧 Work in Progress Details</summary>
 
-  - Data Cleaning in progress  
-  - KPI development ongoing  
-  - Visualization coming soon  
+ * Data Cleaning: In progress  
+ * Data Analysis: Under development  
+ * Visualization: Coming soon  
 
 </details>
