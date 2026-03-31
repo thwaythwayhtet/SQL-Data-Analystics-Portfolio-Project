@@ -10,7 +10,7 @@ To develop a structured SQL repository that demonstrates practical data analytic
 *	SQL Platform: MySQL
 *	Key Tables: dim_product, dim_customer, fact_sales
 * Source: Data with Baraa - [Advanced Data Analytics Project ](https://www.datawithbaraa.com/wiki/sql#sql-welcome)
-* Super cool guided project - [Check out “Data with Baraa” on YouTube.](https://www.youtube.com/watch?v=2jGhQpbzHes&t=2652s) 😎  <br><br>
+* Super cool guided project - [Check out full video: “Data with Baraa” on YouTube.](https://www.youtube.com/watch?v=2jGhQpbzHes&t=2652s) 😎  <br><br>
 
 
 **🧰 Tools & Skills**
