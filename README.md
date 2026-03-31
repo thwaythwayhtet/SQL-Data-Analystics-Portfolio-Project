@@ -92,7 +92,7 @@ AND find the total number of customers by each group*/ <br>
 **📋 6. Report Generation** <br> 
 
 **1. Create an SQL VIEW to provide Customer Report** <br><br>
-**Purpose**
+**Purpose** <br>
 This report consolidates key customer metrics and behaviors.
 
 **✨ Highlights** <br>
@@ -115,7 +115,7 @@ This report consolidates key customer metrics and behaviors.
 
 
 **2. Product Report: Create an SQL VIEW to provide Product Insights** <br><br>
-**Purpose**
+**Purpose** <br>
 This report consolidates key product metrics and behaviors.
 
 **✨ Highlights**
