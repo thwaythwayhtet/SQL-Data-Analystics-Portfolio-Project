@@ -103,7 +103,7 @@ Highlights:
        - total quantity purchased 
        - total products 
        - lifespan (in months)
-   4.	Calculates valuable KPIs:
+   5.	Calculates valuable KPIs:
       - Recency (months since last order)
       - Average order value
       - Average monthly spend
@@ -116,7 +116,8 @@ Highlights:
 
 **2. Product Report: Create an SQL VIEW to provide Product Insights** <br><br>
 Purpose: 
-* This report consolidates key product metrics and behaviors Highlights: 
+* This report consolidates key product metrics and behaviors
+Highlights: 
    1. Gathers essentials fields such as product name, category, subcategory and cost.
    2. Segment products by revenue to identify High-Performers, Mid-Range, or Low-Performers.
    3. Aggregates product-level metrics:
