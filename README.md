@@ -98,15 +98,15 @@ Highlights:
    1.	Gathers essentials fields such as names, ages and transaction details 
    2.	Segment customers into categories (VIP, Regular, New) and age groups.
    3.	Aggregates customer-level metrics:
-      - total orders
-     	- total sales 
-      - total quantity purchased 
-      - total products 
-      - lifespan (in months)
+       - total orders
+     	 - total sales 
+       - total quantity purchased 
+       - total products 
+       - lifespan (in months)
    4.	Calculates valuable KPIs:
-     - Recency (months since last order)
-     - Average order value
-     - Average monthly spend
+      - Recency (months since last order)
+      - Average order value
+      - Average monthly spend
 
 
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.1.png) <br><br>
