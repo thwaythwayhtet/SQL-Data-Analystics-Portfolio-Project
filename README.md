@@ -93,8 +93,7 @@ AND find the total number of customers by each group*/ <br>
 
 **1. Create an SQL VIEW to provide Customer Report** <br><br>
 Purpose: 
-*	This report consolidates key customer metrics and behaviors 
-Highlights: 
+*	This report consolidates key customer metrics and behaviors Highlights: 
    1.	Gathers essentials fields such as names, ages and transaction details 
    2.	Segment customers into categories (VIP, Regular, New) and age groups.
    3.	Aggregates customer-level metrics:
@@ -103,7 +102,7 @@ Highlights:
       - total quantity purchased 
       - total products 
       - lifespan (in months)
-4.	Calculates valuable KPIs:
+   4.	Calculates valuable KPIs:
      - Recency (months since last order)
      - Average order value
      - Average monthly spend
@@ -116,8 +115,7 @@ Highlights:
 
 **2. Product Report: Create an SQL VIEW to provide Product Insights** <br><br>
 Purpose: 
-* This report consolidates key product metrics and behaviors 
-Highlights: 
+* This report consolidates key product metrics and behaviors Highlights: 
    1.	Gathers essentials fields such as product name, category, subcategory and cost.
    2.	Segment products by revenue to identify High-Performers, Mid-Range, or Low-Performers.
    3.	Aggregates product-level metrics:
