@@ -1,4 +1,4 @@
-## 🧠 SQL-Data-Analystic-Portfolio-Project
+## 🧠 SQL-Data-Analystics-Portfolio-Project
 
 <details>
   <summary>🚧 Work in Progress Details</summary>
