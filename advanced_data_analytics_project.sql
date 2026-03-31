@@ -71,7 +71,6 @@ ORDER BY 1;
 --
 
 -- Calculate the total sales per month 
-
 SELECT 
     DATE_FORMAT(order_date, '%Y-%m-01') AS order_date,
     SUM(sales_amount) AS total_sales
@@ -80,7 +79,7 @@ WHERE order_date <> ''
 GROUP BY 1
 ORDER BY 1;
 
--- Calculate the running total of sales over time (window function).
+-- Calculate the running total of sales over time.
 SELECT
 	order_date,
     total_sales,
@@ -96,7 +95,6 @@ ORDER BY 1) t;
 
 
 -- Calculate the moving average of price over time
-
 SELECT
 	order_date,
     total_sales,
@@ -116,8 +114,6 @@ ORDER BY 1) t;
 --
 -- Performance Analysis
 -- 
-
--- Analyze the yearly performance of products by comparing their sales to both the average sales performance of the product and the previous year’s sales [CTE]
 
 -- Current Sales vs Average Sales Performance 
 WITH yearly_product_sales AS (
@@ -306,7 +302,6 @@ Highlights:
 */
 
 -- Step 1: Gathers essentials fields such as names, ages and transaction details 
-
 SELECT 
 	f.order_number,
     f.product_key,
@@ -324,7 +319,6 @@ WHERE order_date <> '';
 
 
 -- Step 2: Customer Aggregations: Summarizes key metrics at the customer level
-
 WITH base_query AS (
 SELECT 
 	f.order_number,
@@ -358,7 +352,6 @@ GROUP BY 1,2,3,4;
 
 
 -- Step 3: Final Result
-
 CREATE VIEW report_customers AS 
 WITH base_query AS (
 SELECT 
