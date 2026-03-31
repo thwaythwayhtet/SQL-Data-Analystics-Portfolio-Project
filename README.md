@@ -63,7 +63,7 @@ To develop a structured SQL repository that demonstrates practical data analytic
 *Note: To analyze how an individual part is performing compared to the overall, allowing us to understand which category has the greatest impact on the business*
 
 1. Which categories contribute the most to overall sales. <br>
-   > Most of the business Revenue comes from ‘Bike’ and the remaining categories are minor contributors to business. Businesses only rely on one category and relying on one core business is too risky. <br><br>
+   > Most of the business Revenue comes from ‘Bike’ and the remaining categories are the minor contributors to business. This indicates a heavy reliance on a single category, which poses a risk to the business.
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/4.1.png) <br>
 
 2. Which subcategories contribute the most to overall sales.
