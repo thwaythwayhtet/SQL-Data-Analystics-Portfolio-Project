@@ -29,12 +29,12 @@ To develop a structured SQL repository that demonstrates practical data analytic
 *Note: To analyze how a measure evolves over time and identity seasonality in the data.* <br>
 
 1. Changes over Year: A high-level overview insight that helps with strategic decision making (Performance by each year)
-   > 2013 is the high performing year in terms of sales. <br>
+   > 2013 is the high performing year in terms of sales. <br><br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/1.1.png) <br>
 
 
 2. Changes over Month: Detailed insight to discover seasonality
-   > December is the best month for sales due to Christmas and year-end holidays, whereas February is typically the weakest month. <br>
+   > December is the best month for sales due to Christmas and year-end holidays, whereas February is typically the weakest month. <br><br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/1.3.png) <br>
 
 
@@ -52,7 +52,7 @@ To develop a structured SQL repository that demonstrates practical data analytic
 **🔍 3. Performance Analysis** <br>
 
 1. Current Sales vs Average Sales Performance <br>
-![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/3.1.0.png) <br>
+![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/3.1.0.png) <br><br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/3.1.1.png) <br>
 
 2. Analyze the yearly performance of products by comparing their sales to both the average sales performance of the product and the previous year’s sales <br>
