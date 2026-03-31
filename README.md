@@ -108,6 +108,22 @@ Highlights:
       - Average order value
       - Average monthly spend
 
+## 📊 Purpose
+This report consolidates key customer metrics and behaviors.
+
+## ✨ Highlights
+1. Gathers essential fields such as names, ages, and transaction details  
+2. Segments customers into categories (VIP, Regular, New) and age groups  
+3. Aggregates customer-level metrics:
+   - Total orders  
+   - Total sales  
+   - Total quantity purchased  
+   - Total products  
+   - Lifespan (in months)  
+4. Calculates valuable KPIs:
+   - Recency (months since last order)  
+   - Average order value  
+   - Average monthly spend 
 
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.1.png) <br><br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.2.png) <br><br>
