@@ -34,13 +34,13 @@ To develop a structured SQL repository that demonstrates practical data analytic
 
 
 2. Changes over Month: Detailed insight to discover seasonality
-   > December is the best month for sales due to Christmas and year-end holidays, whereas February is typically the weakest month.
+   > December is the best month for sales due to Christmas and year-end holidays, whereas February is typically the weakest month. <br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/1.3.png) <br>
 
 
 **🔍 2. Cumulative Analysis** <br>
 
-1. Calculate the total sales per month
+1. Calculate the total sales per month <br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/2.1.1.png) <br>
 
 2. Calculate the running total of sales over time <br>
@@ -51,38 +51,37 @@ To develop a structured SQL repository that demonstrates practical data analytic
 
 **🔍 3. Performance Analysis** <br>
 
-1. Current Sales vs Average Sales Performance
+1. Current Sales vs Average Sales Performance <br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/3.1.0.png) <br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/3.1.1.png) <br>
 
-2. Analyze the yearly performance of products by comparing their sales to both the average sales performance of the product and the previous year’s sales
+2. Analyze the yearly performance of products by comparing their sales to both the average sales performance of the product and the previous year’s sales <br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/3.1.2.png) <br>
 
 
 **🔍 4. Proportional Analysis** <br>
 *Note: To analyze how an individual part is performing compared to the overall, allowing us to understand which category has the greatest impact on the business*
 
-1. Which categories contribute the most to overall sales.
-   >> Most of the business Revenue comes from ‘Bike’ and the remaining categories are minor contributors to business. Businesses only rely on one category and relying on one core business is too risky. <br>
+1. Which categories contribute the most to overall sales. <br>
+   > Most of the business Revenue comes from ‘Bike’ and the remaining categories are minor contributors to business. Businesses only rely on one category and relying on one core business is too risky. <br><br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/4.1.png) <br>
 
 2. Which subcategories contribute the most to overall sales.
-   >> In terms of sub-category, road bikes contributed nearly 50% of the revenue share, followed by Mountain Bikes (34%) and Touring Bikes (13%) respectively. <br>
+   > In terms of sub-category, road bikes contributed nearly 50% of the revenue share, followed by Mountain Bikes (34%) and Touring Bikes (13%) respectively. <br><br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/4.2.png) <br>
 
 
 **🔍 5. Data Segmentation** <br>
-
 1. Segment products into cost ranges and count how many products fall into each segment <br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/5.1.1.png) <br>
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/5.1.2.png) <br>
 
 
-2. Group customers into three segments based on their spending behavior.
-/*
--- VIP: at least 12 months of history and spending more than €5,000. 
--- Regular: at least 12 months of history but spending €5,000 or less.
--- New: lifespan less than 12 months. 
+2. Group customers into three segments based on their spending behavior. <br>
+/* <br> 
+-- VIP: at least 12 months of history and spending more than €5,000. <br>
+-- Regular: at least 12 months of history but spending €5,000 or less. <br>
+-- New: lifespan less than 12 months.  <br>
 AND find the total number of customers by each group*/ <br>
 
 ![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/5.2.1.png) <br>
@@ -93,7 +92,6 @@ AND find the total number of customers by each group*/ <br>
 **📋 6. Report Generation** <br> 
 
 **1. Create an SQL VIEW to provide Customer Report** <br><br>
-
 Purpose: 
 *	This report consolidates key customer metrics and behaviors 
 Highlights: 
@@ -111,13 +109,12 @@ Highlights:
      - Average monthly spend
 
 
-![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.1.png) <br>
-![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.2.png) <br>
-![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.3.png) <br>
+![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.1.png) <br><br>
+![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.2.png) <br><br>
+![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.1.3.png) <br><br>
 
 
 **2. Product Report: Create an SQL VIEW to provide Product Insights** <br><br>
-
 Purpose: 
 * This report consolidates key product metrics and behaviors 
 Highlights: 
@@ -134,9 +131,9 @@ Highlights:
    - Average order revenue (AOR)
    - Average monthly revenue
 
-![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.2.1.png) <br>
-![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.2.2.png) <br>
-![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.2.3.png) <br>
+![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.2.1.png) <br><br>
+![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.2.2.png) <br><br>
+![database](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/images/6.2.3.png) <br><br>
 
 
 👉 [Please check out SQL Query Code!](https://github.com/thwaythwayhtet/SQL-Data-Analystics-Portfolio-Project/blob/main/advanced_data_analytics_project.sql)
